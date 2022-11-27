@@ -5,39 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./Imagenes/Logo.png" type="image">
 </head>
 <body>
     <header>
-        <h1>El EMPORIO DEL SANDWICH</h1>
-        <img src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich">
+        <h1 class="Nombre_Empresa">El EMPORIO DEL SANDWICH</h1>
+        <div class="center">
+            <img id="logo" src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich">
+        </div>
     </header>
-    <nav>
+    <nav id="Indice">
         <ul>
             <li>
-                <a href="./index.html">Inicio</a>
+                <a class="Indices" href="./index.html">Inicio</a>
             </li>
             <li>
-                <a href="./Quienes somos.html">Quienes somos</a>
+                <a class="Indices" href="./Quienes somos.html">Quienes somos</a>
             </li>
             <li>
-                <a href="./Ordenar.html">Ordenar</a>
+                <a class="Indices" href="./Ordenar.html">Ordenar</a>
             </li>
             <li>
-                <a href="./Contacto.html">Contacto</a>
+                <a class="Indices" href="./Contacto.html">Contacto</a>
             </li>
 
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="Subtemas">
             <div>
-                <h1> !! Promociones del mes ¡¡</h1>
-                <img src="./Imagenes/Sandwich de queso.jpg" alt="Sandwich de queso">
-                <p>Este mes de noviembre, no te pierdas nuestro 2x1 
+                <h2> !! Promociones del mes ¡¡</h1>
+                <img id="SanQueso" src="./Imagenes/Sandwich de queso.jpg" alt="Sandwich de queso">
+                <p class=>Este mes de noviembre, no te pierdas nuestro 2x1 
                     en los exquisitos sandwiches de queso </p>
             </div>
-            <h1> !! Lo más nuevo del menú ¡¡</h1>
-            <img src="./Imagenes/Sandwich de helado.jpg" alt="Sandwich de helado">
+            <h2> !! Lo más nuevo del menú ¡¡</h1>
+            <img id="SandHel" src="./Imagenes/Sandwich de helado.jpg" alt="Sandwich de helado">
             <p>Te presentamos nuestro nuevo y delicioso postre, Sandwiches de helado.
                 pídelos de vainilla, chocolate o chocomenta</p>
         </section>
@@ -47,26 +67,32 @@
             <h3>Redes sociales
                 <ul>
                     <li>
-                        <img src="./Imagenes/Instagram.png" alt="Logo de instagram">
-                        <a href="http://www.instagram.com/Emporio_del_sandwich/">@Emporio_del_sandwich</a>
+                        <iconify-icon id="Insta" icon="mdi:instagram"></iconify-icon>
+                        <a href="http://www.instagram.com/Emporio_del_sandwich/" target="_blank">@Emporio_del_sandwich</a>
                     </li>
                     <li>
-                       <img src="./Imagenes/Facebook.png" alt="Logo de facebook">
-                       <a href="https://www.facebook.com/El Emporio Del Sandwich/">@El Emporio Del Sandwich</a>
+                        <iconify-icon id="Face" icon="ic:baseline-facebook"></iconify-icon>                       
+                        <a href="https://www.facebook.com/jean.rangel.96/" target="_blank">@El Emporio del Sandwich
                     </li>
                     <li>
-                        <img src="./Imagenes/Whatsapp.png" alt="Logo de Whatsapp">
+                        <iconify-icon id="Whats" icon="ic:baseline-whatsapp"></iconify-icon>
                         <a href="tel:+522228347325">+52 222-834-7325</a>
                     </li>
                 </ul>
             </h3>
         </nav>
     </aside>
-    <aside>
-        <audio controls autoplay>
-            <source src="./Audio/Gorillaz - Song Machine Theme Tune_160k.mp3" type="audio/mp3">
-                Tu navegador no soporta audio HTML5.
-        </audio>
-    </aside>
+    <footer class="footer_Index">
+        <p class="Derechos">@El Emporio Del Sandwich 2022</p>
+        <div>
+                </a>
+                </footer>  
+        </div>
+        <aside>
+            <audio controls>
+                <source src="./Audio/Gorillaz - Song Machine Theme Tune_160k.mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+            </audio>
+        </aside>
 </body>
 </html>

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Nombre_Empresa{
+    color:black;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    background-color: #bf6900ff;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bf6900ff;;
+    padding: 1rem;
+}
+
+#logo{
+    height: 350px;
+    width: 350px;
+    margin-top: 0rem;
+}
+
+#Indice{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #bf6900ff;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 5rem;
+    text-align: center;
+}
+.Indices{
+    color: #3d0c11ff;
+    font-size: 50px;
+    width: 30px;
+    text-shadow: 1rem 0rem 4rem #ddfc74ff;
+}
+
+.Subtemas{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Secular One', sans-serif;
+    background-color: #3d0c11ff;
+}
+
+p{
+    font-size: 2rem;
+    font-family: 'Dangrek', cursive;
+    text-decoration:underline wavy #d3f9b5ff;
+    background-color: #d3f9b5ff;
+}
+
+#SanQueso{
+    height: 400px;
+    width: 400px;
+    border: 0.5rem #ddfc74ff solid;
+    border-radius: 2rem ;
+}
+
+#SandHel{
+    height: 400px;
+    width: 400px;
+    border: 0.5rem #ddfc74ff solid;
+    border-radius: 2rem ;
+}
+
+aside nav h3 ul {
+    display:inside block;
+    margin-right: 5rem;
+    text-align: center;
+    background-color:#ddfc74ff ;
+    font-family: 'Secular One', sans-serif;
+}
+
+h3{
+    font-size: 1.5rem;
+    background-color: #ddfc74ff;
+    font-family: 'Secular One', sans-serif;
+    
+}
+
+.Derechos{
+    font-size: 1rem;
+    background-color: #ddfc74ff;
+    font-family: 'Dangrek', cursive;
+}
+
+audio{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: #ddfc74ff;
+    padding: 1rem;
+}
+
+#Insta{
+    height: 1.2rem;
+    width: 2.5rem;
+   
+}
+
+#Face{
+    height: 1.2rem;
+    width: 2.5rem;
+}
+
+#Whats{
+    height: 1.2rem;
+    width: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
