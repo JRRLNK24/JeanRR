@@ -1,39 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./Imagenes/Logo.png" type="image">
+</style>
 </head>
-<body>
+<body class="fondo">
+    <p class="Eslogan">Especialistas en todo lo que este entre dos panes</p>
+    <section >
+        <div class="cajabuscar">
+            <form method="get" id="buscarform">
+            <fieldset>
+                <input type="text" id="s" value="" placeholder="Buscar"  />
+                <input class="button" type="submit" value="" />
+                <img id="Lupa" src="./Imagenes/lupa.png" i class="search"></i>
+            </fieldset>
+            </form>
+        </div>
+        </section>
+    </body>
+    <body>
     <header>
-        <h1>El EMPORIO DEL SANDWICH</h1>
-        <img src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich">
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Quienes somos.html">Quienes somos</a>
-                </li>
-                <li>
-                    <a href="./Ordenar.html">Ordenar</a>
-                </li>
-                <li>
-                    <a href="./Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+        <h1 class="Nombre_Empresa">El EMPORIO DEL SANDWICH</h1>
+        <div class="center">
+            <img id="logo" src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich">
+        </div>
     </header>
-    <main>
+    <nav id="Indice">
+        <ul>
+            <li>
+                <a class="Indices" href="./index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="Indices" href="./Quienes somos.html">Quienes somos</a>
+            </li>
+            <li>
+                <a class="Indices" href="./Ordenar.html">Ordenar</a>
+            </li>
+            <li>
+                <a class="Indices" href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="Indicaciones">
         <div>
             <h2>Pedido actual</h2>
         </div>
         <section>
-            <!-- Tablas -->
-            <table>
+            <table >
                 <tr>
                     <td>Sandwich de carnes frias</td>
                     <td>Sandwich de queso</td>
@@ -61,4 +95,5 @@
                 <a href="">Realizar pedido</a>
             </div>
         </section>
+        
     </main>

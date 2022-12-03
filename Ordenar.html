@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    </style>
+    <link rel="stylesheet" href="./Imagenes/Logo.png" type="image">
+  </head>
+  <body class="fondo">
+    <p class="Eslogan">Especialistas en todo lo que este entre dos panes</p>
+    <section >
+        <div class="cajabuscar">
+            <form method="get" id="buscarform">
+            <fieldset>
+                <input type="text" id="s" value="" placeholder="Buscar"  />
+                <input class="button" type="submit" value="" />
+                <img id="Lupa" src="./Imagenes/lupa.png" i class="search"></i>
+            </fieldset>
+            </form>
+        </div>
+        </section>
+    </body>
+    <body>
     <header>
-        <h1>El EMPORIO DEL SANDWICH</h1>
-        <img src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich">
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./Quienes somos.html">Quienes somos</a>
-                </li>
-                <li>
-                    <a href="./Ordenar.html">Ordenar</a>
-                </li>
-                <li>
-                    <a href="./Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+      <h1 class="Nombre_Empresa">El EMPORIO DEL SANDWICH</h1>
+      <div class="center">
+      <img id="logo" src="./imagenes/Logo.png" alt="Logo de EL Emporio del Sandwich" />
+    </div>
+      <nav id="Indice">
+        <ul>
+          <li>
+            <a class="Indices" href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="Indices" href="./Quienes somos.html">Quienes somos</a>
+          </li>
+          <li>
+            <a class="Indices" href="./Ordenar.html">Ordenar</a>
+          </li>
+          <li>
+            <a class="Indices" href="./Contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     <main>
-        <section>
+        <section class="Indicaciones">
             <h1>¿Como comprar?</h1>
-            <!-- Lista Ordenada-->
             <ol>
                 <li>Seleccionar el tipo de pedido</li>
                 <li>Seleccionar el tipo de moneda</li>
@@ -51,20 +83,67 @@
         <label for="">Moneda argentina</label>
         <input type="checkbox" name="Tipo de moneda" id="">
     </div>
+    <section class="Indicaciones">
+        <div class="child-page-listing">
+    
             <h2>Menú</h2>
-               <!--- Lista Desordenada -->
+          
+            <div class="grid-container">
+          
+              <article class="location-listing">
+          
+                <a class="location-title" href="#">
+                    Sandiwich de carnes frias           </a>
+          
+                <div class="location-image">
+                  <a href="#">
+                      <img width="300" height="169" src="/Imagenes/Sandwich de carnes de frias.jpg" alt="Sandwich de carnes frias">    </a>
+          
+                </div>
+          
+              </article>
+          
+              <article id="3688" class="location-listing">
+          
+                <a class="location-title" href="#">
+                    Sandwich de queso           </a>
+          
+                <div class="location-image">
+                  <a href="#">
+                      <img width="300" height="169" src="./Imagenes/Sandwich de queso.jpg" alt="Sandwich de queso">  </a>
+          
+                </div>
+          
+              </article>
+          
+              <article id="3691" class="location-listing">
+          
+                <a class="location-title" href="#">
+                    El rey Sandwich            </a>
+          
+                <div class="location-image">
+                  <a href="#">
+                      <img width="300" height="169" src="./Imagenes/El rey sandwich.jpg" alt="El rey sandwich">  </a>
+          
+                </div>
+          
+              </article>
+            </div>
+          </div>
+    </section>
+    <section class="Platillos">
     <ul>
         <li><h3>Sandwich de carnes frias $40</h2></li>
-        <img src="./Imagenes/Sandwich de carnes de frias.jpg" alt="Sandwich de carnes frias">
+        <img class="Sandwiches" src="./Imagenes/Sandwich de carnes de frias.jpg" alt="Sandwich de carnes frias">
         <p>Sandwich con pan de trigo artesanal, preparado con jamón serrano, 
             pepperoni, tocino ahumado, lechuga, jamón de pavo y chorizo pamplona </p>
             <li><h3>Sandwich de queso $30</h2></li>
-        <img src="./Imagenes/Sandwich de queso.jpg" alt="Sandwich de queso">
+        <img class="Sandwiches" src="./Imagenes/Sandwich de queso.jpg" alt="Sandwich de queso">
         <p>Un clasico platillo echo con nuestro pan blanco casero, elaborado con queso cheddar
             manchego, gouda y americano
         </p>
         <li><h3>El rey sandwich $30</h3></li>
-        <img src="./Imagenes/El rey sandwich.jpg" alt="El rey sandwich">
+        <img class="Sandwiches" src="./Imagenes/El rey sandwich.jpg" alt="El rey sandwich">
     <p>El sandwich de sandwiches, ninguno como este, con un gran sabor y tamaño gracias su pechuga de pavo
         asada, tocino ahumado, queso amaericano, queso gouda, agucate, lechuga y jitomate. Todo esto en 
         tres pisos de puro sabor con nuestro pan parmesado preparado en horno de piedra.
@@ -72,8 +151,9 @@
     </ul>
         </section>
     </main> 
-    <div>
     </form>
+    <section class="Indicaciones">
+    <div>
     <form action="">
         <div>Sandwich de carnes frias</div> 
         <form action="">
@@ -104,11 +184,13 @@
         <input type="radio">
     </form>
     </div>
+</section>
     <div>
-        <aside>
-            <img src="https://cdn-icons-png.flaticon.com/512/107/107831.png" alt="Carrito de compras">
-        <a href="./Carrito.html">Ver carrito</a>
-        </aside>
+        <footer class="Indicaciones">
+        <a href="/Carrito.html">
+            <img src="Imagenes/Carrito de compras.png" alt="Carrito de compras" />
+        </a>
+        </footer>
     </div>
 </body>
 </html>

@@ -3,6 +3,93 @@
     padding: 0;
 }
 
+.fondo{
+    margin: 0;
+    padding: 0;
+    border: 0;
+     font-size: 100%;
+     font: inherit;
+     background-color: black;
+     background-image: url(./Imagenes/Fondo\ de\ San.jpg);
+    }
+ .Eslogan{
+    background:none;
+    font-size: 2rem;
+    font-family: 'Bungee Inline', cursive;
+    text-decoration:none;
+
+ }
+ .cajabuscar {
+     float: center;
+     width: 100%;
+     max-width: 453px;
+     margin-bottom: 25px;
+     margin-top: 29px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     text-align: left;
+     
+ }
+
+ #buscarform {
+     padding: 0;
+     float: left;
+     clear: both;
+     width: 100%;
+     position: relative;
+
+ }
+ #buscarform fieldset { float: left }
+ 
+ #buscarform .search {
+     font-size: 50px;
+     top: 0px;
+     color: #FFF;
+     background: #BF6900;
+     position: absolute;
+     right: -3px;
+     top: 1px;
+     padding: 9px;
+     height: 25px;
+     width: 24px;
+     text-align: center;
+ }
+ #buscarform fieldset { width: 100% }
+
+ #s {
+     width: 100%;
+     background-color: #fff;
+     float: left;
+     padding: 8px 0;
+     text-indent: 10px;
+     color: #555555;
+     border: 1px solid #fff; 
+     box-sizing: border-box;
+     height: 42px;
+     
+ }
+
+ .button{
+     right: 0;
+     top: 0;
+     padding: 9px 0;
+     float: right;
+     border: 0;
+     width: 42px;
+     height: 42px;
+     cursor: pointer;
+     text-align: center;
+     padding-top: 10px;
+     color: #a4a4a4;
+     transition: all 0.25s linear;
+     background: transparent;
+     z-index: 10;
+     position: absolute;
+     border: 0;
+     vertical-align: top;
+ }
+
 .Nombre_Empresa{
     color:black;
     font-family: 'Bungee Inline', cursive;
@@ -22,27 +109,30 @@
 }
 
 #logo{
-    height: 350px;
-    width: 350px;
+    height: 25rem;
     margin-top: 0rem;
 }
 
 #Indice{
-    padding: 10px;
+    padding: 2rem;
     margin: 0 auto;
     text-align: center;
     background-color: #bf6900ff;
+    font-family: 'Bungee Inline', cursive;
 }
 
 nav ul li{
     display: inline-block;
     margin-right: 5rem;
     text-align: center;
+    flex:1;
+    border-style: solid;
+    border-color: aqua;
 }
 .Indices{
     color: #3d0c11ff;
-    font-size: 50px;
-    width: 30px;
+    font-size: 3rem;
+    width: 1rem;
     text-shadow: 1rem 0rem 4rem #ddfc74ff;
 }
 
@@ -62,25 +152,23 @@ p{
 }
 
 #SanQueso{
-    height: 400px;
-    width: 400px;
+    height: 25rem;
     border: 0.5rem #ddfc74ff solid;
     border-radius: 2rem ;
 }
 
 #SandHel{
-    height: 400px;
-    width: 400px;
+    height: 16rem;
     border: 0.5rem #ddfc74ff solid;
     border-radius: 2rem ;
 }
 
-aside nav h3 ul {
-    display:inside block;
-    margin-right: 5rem;
+#Redes{
+    display:inline;
+    justify-items: center;
+    justify-content: center;
     text-align: center;
-    background-color:#ddfc74ff ;
-    font-family: 'Secular One', sans-serif;
+    background: #ddfc74ff;
 }
 
 h3{
@@ -91,15 +179,14 @@ h3{
 }
 
 .Derechos{
+    display: flex;
     font-size: 1rem;
     background-color: #ddfc74ff;
     font-family: 'Dangrek', cursive;
 }
 
 audio{
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    display:contents;
     background: #ddfc74ff;
     padding: 1rem;
 }
@@ -120,8 +207,138 @@ audio{
     width: 2.5rem;
 }
 
+/*Quienes somos*/
 
+.Ubicaciones{
 
+    display: inline;
+    margin-right: 5rem;
+    text-align: center;
+
+}
+#Pue{
+    height: 25rem;
+    border: 0.5rem #ddfc74ff solid;
+    border-radius: 2rem ;
+}
+
+#Med{
+    height: 25rem;
+    border: 0.5rem #ddfc74ff solid;
+    border-radius: 2rem ;
+}
+
+#Pue_Map{
+    padding: 1rem;
+    height: 25rem;
+    border: 1rem solid;
+    border-radius: 5rem ;
+}
+
+#Med_Map{
+    padding: 1rem;
+    height: 25rem;
+    border: 1rem solid;
+    border-radius: 5rem ;
+}
+
+.recomendación{
+    font-size: 3rem;
+}
+
+/*Ordenar*/
+
+.Indicaciones{
+    background-color: #bf6900ff ;
+}
+
+img {
+    width: auto;
+    height: auto;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+  
+   /* ver carrito */
+
+ .grid-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+ }
+
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+    height: 50rem;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(2px);
+  }
+  
+  .location-image img {
+        height: auto;
+        width: 100%
+  }
+
+  @supports(object-fit: cover){
+    .location-image img {
+        height: 100%;
+        object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  .Sandwiches{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Platillos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 
