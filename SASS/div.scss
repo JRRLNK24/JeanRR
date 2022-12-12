@@ -1,0 +1,10 @@
+.Botones{
+    
+    .Realizar_P{
+        @include btnPrimario(2rem, green)
+    }
+
+    .Cancelar_P{
+        @include btnPrimario(2rem,red)
+    }
+} 

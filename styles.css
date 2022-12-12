@@ -9,7 +9,6 @@
     border: 0;
      font-size: 100%;
      font: inherit;
-     background-color: black;
      background-image: url(./Imagenes/Fondo\ de\ San.jpg);
     }
  .Eslogan{
@@ -29,7 +28,6 @@
      margin-right: auto;
      display: flex;
      text-align: left;
-     
  }
 
  #buscarform {
@@ -55,6 +53,7 @@
      width: 24px;
      text-align: center;
  }
+ 
  #buscarform fieldset { width: 100% }
 
  #s {
@@ -96,6 +95,7 @@
     font-size: 5rem;
     margin-top: 0.5rem;
     text-align: center;
+    margin-bottom: auto;
     background-color: #bf6900ff;
 
 }
@@ -115,7 +115,7 @@
 
 #Indice{
     padding: 2rem;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
     background-color: #bf6900ff;
     font-family: 'Bungee Inline', cursive;
@@ -169,13 +169,14 @@ p{
     justify-content: center;
     text-align: center;
     background: #ddfc74ff;
+    list-style: none;
 }
 
 h3{
     font-size: 1.5rem;
     background-color: #ddfc74ff;
     font-family: 'Secular One', sans-serif;
-    
+    margin-bottom: 0rem;
 }
 
 .Derechos{
@@ -205,6 +206,12 @@ audio{
 #Whats{
     height: 1.2rem;
     width: 2.5rem;
+}
+
+.footer_Index{
+    background: #ddfc74ff;
+    padding: 1rem;
+    margin-top: -1rem;
 }
 
 /*Quienes somos*/
@@ -249,7 +256,7 @@ audio{
 /*Ordenar*/
 
 .Indicaciones{
-    background-color: #bf6900ff ;
+    background-color: #bf6900ff;
 }
 
 img {
@@ -339,6 +346,105 @@ img {
     justify-content: center;
     align-items: center;
   }
+
+  @media only screen and (min-width: 320px)
+   and (max-width:767px) {
+    .Eslogan{
+        background:none;
+        font-size: 1.5rem;
+        font-family: 'Bungee Inline', cursive;
+        text-decoration:none;
+        display:inline-flex;
+     }
+     #SanQueso{
+        height: 15rem;
+        border: 0.25rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    
+    #SandHel{
+        height: 10rem;
+        border: 0.25rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: 'Dangrek', cursive;
+        text-decoration:underline wavy #d3f9b5ff;
+        background-color: #d3f9b5ff;
+    }
+    #logo{
+        height: 18rem;
+        margin-top: 0rem;
+    }
+    
+  }
+  @media only screen and (min-width: 768px)
+  and (max-width:1024px) {
+    .Eslogan{
+        background:none;
+        font-size: 1.8rem;
+        font-family: 'Bungee Inline', cursive;
+        text-decoration:none;
+        display:inline-flex;
+        justify-content: center;
+     }
+     #SanQueso{
+        height: 18rem;
+        border: 0.3rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    
+    #SandHel{
+        height: 13rem;
+        border: 0.3rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: 'Dangrek', cursive;
+        text-decoration:underline wavy #d3f9b5ff;
+        background-color: #d3f9b5ff;
+    }
+    #logo{
+        height: 20rem;
+        margin-top: 0rem;
+    }
+    
+ }
+ @media only screen and (min-width: 1025px)
+ and (max-width:1068px) {
+    .Eslogan{
+        background:none;
+        font-size: 2rem;
+        font-family: 'Bungee Inline', cursive;
+        text-decoration:none;
+        display:inline-flex;
+        justify-content: center;
+     }
+     #SanQueso{
+        height: 25rem;
+        border: 0.5rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    
+    #SandHel{
+        height: 16rem;
+        border: 0.5rem #ddfc74ff solid;
+        border-radius: 1rem ;
+    }
+    p{
+        font-size: 2rem;
+        font-family: 'Dangrek', cursive;
+        text-decoration:underline wavy #d3f9b5ff;
+        background-color: #d3f9b5ff;
+    }
+    #logo{
+        height: 25rem;
+        margin-top: 0rem;
+    }
+    
+}
 
 
 
