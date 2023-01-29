@@ -99,3 +99,42 @@
 
 // console.log(permiso)
 
+// Funciones de orden superior
+
+let Menu=[
+    {Platillo:"Sandwich de queso", Stock: 20, Precio:30.50},
+    {Platillo:"Sandwich de carnes frias", Stock: 15, Precio:50.80},
+    {Platillo:"El rey sandwich", Stock: 10, Precio:90.50}
+]
+
+Menu.forEach(nombrePlat => {
+  console.log (nombrePlat.Platillo)
+})
+
+Menu.forEach(cantStock => {
+    console.log (cantStock.Stock)
+  })
+
+let precioPlat = Menu.filter(elemento => elemento.Precio > 50)
+console.log(precioPlat)
+
+Menu.sort((a, b) => {
+    if(a.Platillo == b.Platillo){
+        return 0;
+    }
+    if(a.Platillo < b.Platillo){
+        return -1;
+    }
+    return 1;
+});
+
+let PlatCaro = 0;
+
+Menu.forEach(elemento =>{
+    console.log(elemento.Precio);
+    PlatCaro = Math.round(Math.max(elemento.Precio, PlatCaro));
+    
+});
+
+console.log("El platillo más caro es", PlatCaro);
+
